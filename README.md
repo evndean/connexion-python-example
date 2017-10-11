@@ -7,3 +7,5 @@ To start the service, run `docker-compose up`.
 To stop the service, run `docker-compose stop`.
 
 To remove the service, run `docker-compose down`.
+
+Interactive documentation: http://localhost:5000/ui/

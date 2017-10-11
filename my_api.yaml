@@ -9,6 +9,10 @@ paths:
     get:
       operationId: api.say_hello
       summary: Returns a greeting.
+      parameters:
+        - name: name
+          in: query
+          type: string
       responses:
         200:
           description: Successful response.
